@@ -1,0 +1,6 @@
+name: Cors Headers
+description: Ensure that cors headers are present in the response.
+package: middleware
+
+core: 8.x
+type: module
