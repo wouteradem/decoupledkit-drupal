@@ -10,7 +10,9 @@
         "acquia/headless_lightning": "^1.1.0-alpha2",
         "geerlingguy/drupal-vm": "~4.3",
         "drupal/jsonapi_file": "^1.1",
-        "drupal/field_group": "^1.0"
+        "drupal/field_group": "^1.0",
+        "drupal/content_access": "^1.0@alpha",
+        "drupal/node_view_permissions": "^1.2"
     },
     "require-dev": {},
     "extra": {
