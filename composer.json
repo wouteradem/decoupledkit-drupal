@@ -12,7 +12,8 @@
         "drupal/jsonapi_file": "^1.1",
         "drupal/field_group": "^1.0",
         "drupal/content_access": "^1.0@alpha",
-        "drupal/node_view_permissions": "^1.2"
+        "drupal/node_view_permissions": "^1.2",
+        "drupal/material_admin": "^1.0@alpha"
     },
     "require-dev": {},
     "extra": {
