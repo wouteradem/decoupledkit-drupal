@@ -1,0 +1,23 @@
+uuid: a1c8e9f5-d23a-4f2a-ba60-49fb34bc46d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - consumers
+id: consumer.consumer.default
+targetEntityType: consumer
+bundle: consumer
+mode: default
+content:
+  label:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  image: true
+  owner_id: true

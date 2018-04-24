@@ -1,0 +1,19 @@
+uuid: 5394c9c3-3feb-4882-b1c0-add871c7ae47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_postcode
+    - node.type.venue
+id: node.venue.field_postcode
+field_name: field_postcode
+entity_type: node
+bundle: venue
+label: Postcode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,14 @@
+uuid: 39b75fdd-9f3a-4cfa-b8e7-b728d5770fa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.client_reviewer
+  module:
+    - user
+id: user_add_role_action.client_reviewer
+label: 'Add the Client reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: client_reviewer

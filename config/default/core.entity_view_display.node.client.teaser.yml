@@ -1,0 +1,19 @@
+uuid: 69b8e5e1-d8ba-454d-86b1-2bf77c2a2a81
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.client
+  module:
+    - user
+id: node.client.teaser
+targetEntityType: node
+bundle: client
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

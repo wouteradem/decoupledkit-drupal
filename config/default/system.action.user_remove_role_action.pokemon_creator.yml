@@ -1,0 +1,14 @@
+uuid: 1c4f98da-465b-449d-8f03-929ca6d04407
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pokemon_creator
+  module:
+    - user
+id: user_remove_role_action.pokemon_creator
+label: 'Remove the Pokemon creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pokemon_creator

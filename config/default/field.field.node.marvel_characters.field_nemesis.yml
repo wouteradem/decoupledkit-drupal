@@ -1,0 +1,19 @@
+uuid: 1c843897-16dc-43bd-998a-0b4fe90cb873
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nemesis
+    - node.type.marvel_characters
+id: node.marvel_characters.field_nemesis
+field_name: field_nemesis
+entity_type: node
+bundle: marvel_characters
+label: Nemesis
+description: 'Add a nemesis to the character by adding other marvel character names. (ie. Ultron, Thanos)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

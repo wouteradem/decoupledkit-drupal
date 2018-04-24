@@ -1,0 +1,11 @@
+uuid: cf9547fa-2afb-4c5a-9211-ac4baa688059
+langcode: en
+status: true
+dependencies: {  }
+name: Dogs
+type: dogs
+description: 'A content type to display common schema constructs with fields.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

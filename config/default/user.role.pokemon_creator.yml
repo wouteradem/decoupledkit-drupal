@@ -1,0 +1,29 @@
+uuid: ee49c54c-1d5c-47b1-b8e8-0fdfd9d6452b
+langcode: en
+status: true
+dependencies: {  }
+id: pokemon_creator
+label: 'Pokemon creator'
+weight: 11
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'create pokemon content'
+  - 'create url aliases'
+  - 'delete any pokemon content'
+  - 'delete own pokemon content'
+  - 'delete pokemon revisions'
+  - 'edit any pokemon content'
+  - 'edit own pokemon content'
+  - 'revert pokemon revisions'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view pokemon revisions'

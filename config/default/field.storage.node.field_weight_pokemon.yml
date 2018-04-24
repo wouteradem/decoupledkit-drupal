@@ -1,0 +1,20 @@
+uuid: 503a3c9e-0efe-4a35-b863-8bfc8160dcb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_weight_pokemon
+field_name: field_weight_pokemon
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

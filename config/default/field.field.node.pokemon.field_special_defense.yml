@@ -1,0 +1,23 @@
+uuid: c67e707f-893e-41c7-94d7-9798823e37c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_special_defense
+    - node.type.pokemon
+id: node.pokemon.field_special_defense
+field_name: field_special_defense
+entity_type: node
+bundle: pokemon
+label: 'Special Defense'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

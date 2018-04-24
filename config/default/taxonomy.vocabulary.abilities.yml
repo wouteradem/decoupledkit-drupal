@@ -1,0 +1,9 @@
+uuid: 2a9aca53-1176-40c1-8801-1d9ff859bc52
+langcode: en
+status: true
+dependencies: {  }
+name: Abilities
+vid: abilities
+description: 'The ability reference in the Pokemon content type.'
+hierarchy: 0
+weight: 0

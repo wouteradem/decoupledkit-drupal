@@ -1,0 +1,6 @@
+access_token_expiration: 545400
+refresh_token_expiration: 1209600
+_core:
+  default_config_hash: YJrGmZVEcxxUt1ffTwS_DybfKrbnRkwF1GXzPj-j7aE
+private_key: /var/www/decoupledkit/keys/b3def8ec4dad4141158f97499758bd859c9264b63bfebb05993c027b23b2dc9f.key
+public_key: /var/www/decoupledkit/keys/ec717e4a56209abe9c34316fb0a412e2d71fd36384820b3838fb9d6d310ec0f6.key

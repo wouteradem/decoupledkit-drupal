@@ -1,0 +1,208 @@
+uuid: 3edf3397-d1c6-4b01-9b99-7c1dcb989a8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pokemon.field_abilities
+    - field.field.node.pokemon.field_attack
+    - field.field.node.pokemon.field_back_shiny_sprite
+    - field.field.node.pokemon.field_defense
+    - field.field.node.pokemon.field_front_shiny_sprite
+    - field.field.node.pokemon.field_height_pokemon
+    - field.field.node.pokemon.field_hp
+    - field.field.node.pokemon.field_pokemon_id
+    - field.field.node.pokemon.field_special_attack
+    - field.field.node.pokemon.field_special_defense
+    - field.field.node.pokemon.field_speed
+    - field.field.node.pokemon.field_type_pokemon_ref
+    - field.field.node.pokemon.field_weight_pokemon
+    - node.type.pokemon
+  module:
+    - content_moderation
+    - datetime
+    - field_group
+    - path
+third_party_settings:
+  field_group:
+    group_base_stats:
+      children:
+        - field_hp
+        - field_attack
+        - field_defense
+        - field_special_attack
+        - field_special_defense
+        - field_speed
+      parent_name: ''
+      weight: 16
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Base stats'
+id: node.pokemon.default
+targetEntityType: node
+bundle: pokemon
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_abilities:
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_attack:
+    weight: 28
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_back_shiny_sprite:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_defense:
+    weight: 29
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_front_shiny_sprite:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_height_pokemon:
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_hp:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_pokemon_id:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_special_attack:
+    weight: 30
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_special_defense:
+    weight: 31
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_speed:
+    weight: 32
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_type_pokemon_ref:
+    weight: 15
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_weight_pokemon:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 13
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    region: content
+    third_party_settings: {  }
+  scheduled_publication:
+    type: datetime_default
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 14
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 10
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

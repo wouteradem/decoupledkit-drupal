@@ -1,0 +1,14 @@
+uuid: bcca8cb1-223a-4b60-a354-d314aa49585f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.venue_reviewer
+  module:
+    - user
+id: user_remove_role_action.venue_reviewer
+label: 'Remove the Venue reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: venue_reviewer

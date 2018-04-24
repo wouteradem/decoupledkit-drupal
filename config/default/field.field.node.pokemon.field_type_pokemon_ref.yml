@@ -1,0 +1,29 @@
+uuid: 0d09d3c7-0dd3-4634-8ec8-52b7f929e0e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_pokemon_ref
+    - node.type.pokemon
+    - taxonomy.vocabulary.types_pokemon
+id: node.pokemon.field_type_pokemon_ref
+field_name: field_type_pokemon_ref
+entity_type: node
+bundle: pokemon
+label: Type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      types_pokemon: types_pokemon
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,54 @@
+uuid: 38899078-9604-4dd4-8cc3-07437080c32a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.marvel_characters.field_description
+    - field.field.node.marvel_characters.field_image_reference
+    - field.field.node.marvel_characters.field_marvel_id
+    - field.field.node.marvel_characters.field_nemesis
+    - node.type.marvel_characters
+  module:
+    - text
+    - user
+id: node.marvel_characters.default
+targetEntityType: node
+bundle: marvel_characters
+mode: default
+content:
+  field_description:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image_reference:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_marvel_id:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nemesis:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

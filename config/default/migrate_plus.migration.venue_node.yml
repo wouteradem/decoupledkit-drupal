@@ -1,0 +1,74 @@
+uuid: d0673422-4fb6-41e8-95f7-2c8c7248348d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - wcc_migrate
+_core:
+  default_config_hash: 4pJlbLn_NjoXw-QTD5H7G5PvZ_rCjXBVRePXR_6jmy0
+id: venue_node
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - CSV
+migration_group: null
+label: 'WCC venue CSV migration'
+source:
+  plugin: csv
+  path: modules/custom/wcc_migrate/data/approved_venues.csv
+  delimiter: ;
+  header_row_count: 1
+  keys:
+    - id
+  column_names:
+    -
+      id: id
+    -
+      name: Title
+    -
+      photo: Photo
+    -
+      description: Description
+    -
+      address1: Address1
+    -
+      address2: Address2
+    -
+      address3: Address3
+    -
+      address4: Address4
+    -
+      postcode: 'Postal Code'
+    -
+      telephone: Telephone
+    -
+      email: Email
+    -
+      website: Website
+    -
+      latitude: Latitude
+    -
+      longitude: Longitude
+    -
+      capacity: Capacity
+    -
+      area_id: 'Area ID'
+process:
+  type:
+    plugin: default_value
+    default_value: venue
+  title: name
+  body: description
+  field_address1: address1
+  field_address2: address2
+  field_address3: address3
+  field_address4: address4
+  field_capacity: capacity
+  field_email: email
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }

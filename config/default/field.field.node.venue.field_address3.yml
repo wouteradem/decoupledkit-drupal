@@ -1,0 +1,19 @@
+uuid: c4b1a683-edb3-4bde-bcd4-85f543ec5fc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address3
+    - node.type.venue
+id: node.venue.field_address3
+field_name: field_address3
+entity_type: node
+bundle: venue
+label: Address3
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

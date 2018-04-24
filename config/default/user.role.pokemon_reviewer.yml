@@ -1,0 +1,21 @@
+uuid: b9b5ce73-156d-4e8b-a809-c8ff8677390d
+langcode: en
+status: true
+dependencies: {  }
+id: pokemon_reviewer
+label: 'Pokemon reviewer'
+weight: 12
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'create pokemon content'
+  - 'delete any pokemon content'
+  - 'delete own pokemon content'
+  - 'delete pokemon revisions'
+  - 'edit any pokemon content'
+  - 'edit own pokemon content'
+  - 'revert pokemon revisions'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view pokemon revisions'

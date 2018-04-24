@@ -1,0 +1,20 @@
+uuid: c760aaa3-1445-4a9d-9fcc-a6f085d7b3ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_hp
+field_name: field_hp
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: ab495c73-250a-49d8-8a5d-a15654f61c7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_history_and_background
+    - node.type.dogs
+  module:
+    - text
+id: node.dogs.field_history_and_background
+field_name: field_history_and_background
+entity_type: node
+bundle: dogs
+label: 'History and Background'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

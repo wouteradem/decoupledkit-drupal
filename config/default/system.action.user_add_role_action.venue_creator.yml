@@ -1,0 +1,14 @@
+uuid: 3b952844-943e-4c03-8ddd-cd8f1b4c0762
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.venue_creator
+  module:
+    - user
+id: user_add_role_action.venue_creator
+label: 'Add the Venue creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: venue_creator

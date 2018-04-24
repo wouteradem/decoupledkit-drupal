@@ -1,0 +1,24 @@
+uuid: a5a19f32-17f4-4579-b65d-21fb53c3f7d6
+langcode: en
+status: true
+dependencies: {  }
+id: venue_creator
+label: 'Venue creator'
+weight: 15
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'create url aliases'
+  - 'create venue content'
+  - 'edit own venue content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view venue revisions'

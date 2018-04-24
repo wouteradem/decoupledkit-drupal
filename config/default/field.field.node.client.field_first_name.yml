@@ -1,0 +1,19 @@
+uuid: 72598458-8433-4d61-9b94-4a15cd4a202f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first_name
+    - node.type.client
+id: node.client.field_first_name
+field_name: field_first_name
+entity_type: node
+bundle: client
+label: 'First Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

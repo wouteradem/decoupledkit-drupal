@@ -1,0 +1,53 @@
+uuid: d553a60b-2855-4ace-a089-552e02df937f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.client.field_client_email
+    - field.field.node.client.field_country
+    - field.field.node.client.field_first_name
+    - field.field.node.client.field_last_name
+    - node.type.client
+  module:
+    - user
+id: node.client.default
+targetEntityType: node
+bundle: client
+mode: default
+content:
+  field_client_email:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_country:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_first_name:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_last_name:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

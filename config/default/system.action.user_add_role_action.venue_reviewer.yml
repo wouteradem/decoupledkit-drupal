@@ -1,0 +1,14 @@
+uuid: a5247ed3-ce36-443d-a1a6-a2a0432fffed
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.venue_reviewer
+  module:
+    - user
+id: user_add_role_action.venue_reviewer
+label: 'Add the Venue reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: venue_reviewer

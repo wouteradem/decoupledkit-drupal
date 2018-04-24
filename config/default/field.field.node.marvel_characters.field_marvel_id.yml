@@ -1,0 +1,19 @@
+uuid: a7aeff5f-a815-4f7f-b717-0f554d06ba50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_marvel_id
+    - node.type.marvel_characters
+id: node.marvel_characters.field_marvel_id
+field_name: field_marvel_id
+entity_type: node
+bundle: marvel_characters
+label: 'Marvel ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

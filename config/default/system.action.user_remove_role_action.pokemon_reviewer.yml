@@ -1,0 +1,14 @@
+uuid: 072ff2a7-443e-4782-9048-1a270f732259
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pokemon_reviewer
+  module:
+    - user
+id: user_remove_role_action.pokemon_reviewer
+label: 'Remove the Pokemon reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: pokemon_reviewer

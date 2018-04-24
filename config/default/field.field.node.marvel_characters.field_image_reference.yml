@@ -1,0 +1,19 @@
+uuid: 71df9369-fb17-4c0d-95ef-7f3b29d2acfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_reference
+    - node.type.marvel_characters
+id: node.marvel_characters.field_image_reference
+field_name: field_image_reference
+entity_type: node
+bundle: marvel_characters
+label: 'Image Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+uuid: a342f46e-ef14-4a1a-944d-ecc663de4def
+langcode: en
+status: true
+dependencies: {  }
+name: 'Marvel Characters'
+type: marvel_characters
+description: 'Marvel character nodes to be used as sample data.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

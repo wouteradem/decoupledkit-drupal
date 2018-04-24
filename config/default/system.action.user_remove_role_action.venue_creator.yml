@@ -1,0 +1,14 @@
+uuid: 240f4f09-9ef1-4b21-9e6b-d49bac684f02
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.venue_creator
+  module:
+    - user
+id: user_remove_role_action.venue_creator
+label: 'Remove the Venue creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: venue_creator

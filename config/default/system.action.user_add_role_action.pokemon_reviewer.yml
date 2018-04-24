@@ -1,0 +1,14 @@
+uuid: c46f283b-f563-4764-9f01-0c586fe0300d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pokemon_reviewer
+  module:
+    - user
+id: user_add_role_action.pokemon_reviewer
+label: 'Add the Pokemon reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pokemon_reviewer

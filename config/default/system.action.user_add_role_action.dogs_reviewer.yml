@@ -1,0 +1,14 @@
+uuid: 75979af8-5ccf-42f1-9a2b-93e0a0d47d94
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dogs_reviewer
+  module:
+    - user
+id: user_add_role_action.dogs_reviewer
+label: 'Add the Dogs reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: dogs_reviewer

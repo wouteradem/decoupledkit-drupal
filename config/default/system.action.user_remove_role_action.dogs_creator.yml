@@ -1,0 +1,14 @@
+uuid: 5a9dd646-fc61-46ab-8b74-4ba23471291a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dogs_creator
+  module:
+    - user
+id: user_remove_role_action.dogs_creator
+label: 'Remove the Dogs creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: dogs_creator

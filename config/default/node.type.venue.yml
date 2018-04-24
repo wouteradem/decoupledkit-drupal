@@ -1,0 +1,11 @@
+uuid: 832ba516-7b05-429c-8087-2c1d9226a52f
+langcode: en
+status: true
+dependencies: {  }
+name: Venue
+type: venue
+description: 'WCC venue content type.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

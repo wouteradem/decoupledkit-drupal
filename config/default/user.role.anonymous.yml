@@ -1,0 +1,16 @@
+uuid: b6b8284b-4ebd-4663-8019-51cae53b1ca1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access jsonapi resource list'
+  - 'view files'
+  - 'view media'
+  - 'view own consumer entities'

@@ -1,0 +1,144 @@
+uuid: c89d0d25-db53-4b39-96e1-483ececa2b5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pokemon.field_abilities
+    - field.field.node.pokemon.field_attack
+    - field.field.node.pokemon.field_back_shiny_sprite
+    - field.field.node.pokemon.field_defense
+    - field.field.node.pokemon.field_front_shiny_sprite
+    - field.field.node.pokemon.field_height_pokemon
+    - field.field.node.pokemon.field_hp
+    - field.field.node.pokemon.field_pokemon_id
+    - field.field.node.pokemon.field_special_attack
+    - field.field.node.pokemon.field_special_defense
+    - field.field.node.pokemon.field_speed
+    - field.field.node.pokemon.field_type_pokemon_ref
+    - field.field.node.pokemon.field_weight_pokemon
+    - node.type.pokemon
+  module:
+    - user
+id: node.pokemon.default
+targetEntityType: node
+bundle: pokemon
+mode: default
+content:
+  field_abilities:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_attack:
+    weight: 109
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_back_shiny_sprite:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_defense:
+    weight: 110
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_front_shiny_sprite:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_height_pokemon:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_hp:
+    weight: 108
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_pokemon_id:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_special_attack:
+    weight: 111
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_special_defense:
+    weight: 112
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_speed:
+    weight: 113
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_type_pokemon_ref:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_weight_pokemon:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

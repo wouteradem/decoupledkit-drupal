@@ -1,0 +1,21 @@
+uuid: c6e7c6dc-e04b-4be6-926b-67f5a712ce50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telephone
+    - node.type.venue
+  module:
+    - telephone
+id: node.venue.field_telephone
+field_name: field_telephone
+entity_type: node
+bundle: venue
+label: Telephone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

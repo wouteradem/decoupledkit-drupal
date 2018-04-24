@@ -1,0 +1,11 @@
+uuid: df9452e1-a6d1-43f2-856d-6b8ae75d344d
+langcode: en
+status: true
+dependencies: {  }
+name: Pokemon
+type: pokemon
+description: 'Various characters from the Pokemon game series.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

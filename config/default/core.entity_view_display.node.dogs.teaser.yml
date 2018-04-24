@@ -1,0 +1,29 @@
+uuid: 03e809ea-35ea-4c7b-b106-2cb9c3ff272e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.dogs.body
+    - node.type.dogs
+  module:
+    - text
+    - user
+id: node.dogs.teaser
+targetEntityType: node
+bundle: dogs
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

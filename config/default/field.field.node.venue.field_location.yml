@@ -1,0 +1,21 @@
+uuid: 917275b5-2d43-4f45-afd3-214404be7f17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.venue
+  module:
+    - geolocation
+id: node.venue.field_location
+field_name: field_location
+entity_type: node
+bundle: venue
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

@@ -1,0 +1,21 @@
+uuid: ee7ac94d-c138-43d4-a6b3-8eeb07e0a612
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.marvel_characters
+  module:
+    - text
+id: node.marvel_characters.field_description
+field_name: field_description
+entity_type: node
+bundle: marvel_characters
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

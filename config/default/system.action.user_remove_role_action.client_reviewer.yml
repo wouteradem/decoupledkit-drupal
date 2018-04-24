@@ -1,0 +1,14 @@
+uuid: 955f0836-b2f6-4119-8b7c-aeaa2c7b52a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.client_reviewer
+  module:
+    - user
+id: user_remove_role_action.client_reviewer
+label: 'Remove the Client reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: client_reviewer

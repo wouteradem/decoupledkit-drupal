@@ -1,0 +1,12 @@
+uuid: af78372d-551d-4f05-8be7-6973ea3ce1e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: Za3bpBmZC2rMLheOZt4ssBRyDcnsxvBb5-66MAoDSU4
+id: media.media_browser
+label: 'Media browser'
+targetEntityType: media
+cache: true

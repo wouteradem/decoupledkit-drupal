@@ -1,0 +1,19 @@
+uuid: 7c00a63d-3466-4d35-807b-74bd0e31adcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_back_shiny_sprite
+    - node.type.pokemon
+id: node.pokemon.field_back_shiny_sprite
+field_name: field_back_shiny_sprite
+entity_type: node
+bundle: pokemon
+label: 'Back Shiny (image sprite)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

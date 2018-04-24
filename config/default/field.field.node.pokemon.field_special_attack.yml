@@ -1,0 +1,23 @@
+uuid: 1954ae2e-bd98-46bb-b7fa-dc3804f49dc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_special_attack
+    - node.type.pokemon
+id: node.pokemon.field_special_attack
+field_name: field_special_attack
+entity_type: node
+bundle: pokemon
+label: 'Special Attack'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

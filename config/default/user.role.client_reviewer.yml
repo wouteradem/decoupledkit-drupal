@@ -1,0 +1,21 @@
+uuid: e32a390b-1ece-4c55-90bf-c16266c8973f
+langcode: en
+status: true
+dependencies: {  }
+id: client_reviewer
+label: 'Client reviewer'
+weight: 14
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'create client content'
+  - 'delete any client content'
+  - 'delete client revisions'
+  - 'delete own client content'
+  - 'edit any client content'
+  - 'edit own client content'
+  - 'revert client revisions'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view client revisions'

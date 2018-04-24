@@ -1,0 +1,23 @@
+uuid: fb450d82-2959-48c8-8ab3-d82735fa10f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website
+    - node.type.venue
+  module:
+    - link
+id: node.venue.field_website
+field_name: field_website
+entity_type: node
+bundle: venue
+label: Website
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

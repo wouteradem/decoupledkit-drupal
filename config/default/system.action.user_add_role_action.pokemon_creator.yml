@@ -1,0 +1,14 @@
+uuid: 9cee25dd-216e-48b4-a88a-db41efafc162
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pokemon_creator
+  module:
+    - user
+id: user_add_role_action.pokemon_creator
+label: 'Add the Pokemon creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pokemon_creator

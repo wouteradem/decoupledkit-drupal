@@ -1,0 +1,19 @@
+uuid: d50dbc51-cd80-412c-a78a-4157cf7fea5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.marvel_characters
+  module:
+    - user
+id: node.marvel_characters.teaser
+targetEntityType: node
+bundle: marvel_characters
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

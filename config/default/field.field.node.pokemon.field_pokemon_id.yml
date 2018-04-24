@@ -1,0 +1,23 @@
+uuid: 5f807ed4-21b6-4437-a547-7aeba35c3a6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pokemon_id
+    - node.type.pokemon
+id: node.pokemon.field_pokemon_id
+field_name: field_pokemon_id
+entity_type: node
+bundle: pokemon
+label: 'Pokemon ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

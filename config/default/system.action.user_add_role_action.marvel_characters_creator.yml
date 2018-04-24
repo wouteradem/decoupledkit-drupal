@@ -1,0 +1,14 @@
+uuid: 94dca186-fd41-4e2b-b362-520139387a52
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.marvel_characters_creator
+  module:
+    - user
+id: user_add_role_action.marvel_characters_creator
+label: 'Add the Marvel Characters creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: marvel_characters_creator

@@ -1,0 +1,14 @@
+uuid: 22a807ae-149b-479b-a2eb-8ab10d7ea190
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dogs_reviewer
+  module:
+    - user
+id: user_remove_role_action.dogs_reviewer
+label: 'Remove the Dogs reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: dogs_reviewer

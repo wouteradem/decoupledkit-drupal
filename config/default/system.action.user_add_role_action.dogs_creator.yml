@@ -1,0 +1,14 @@
+uuid: c45c8bb5-3347-4939-95d9-0934137b6e17
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dogs_creator
+  module:
+    - user
+id: user_add_role_action.dogs_creator
+label: 'Add the Dogs creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: dogs_creator

@@ -1,0 +1,14 @@
+uuid: 07a9a807-35df-40bd-bf4a-8656ddedb22e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.marvel_characters_reviewer
+  module:
+    - user
+id: user_remove_role_action.marvel_characters_reviewer
+label: 'Remove the Marvel Characters reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: marvel_characters_reviewer

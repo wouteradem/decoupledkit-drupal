@@ -1,0 +1,14 @@
+uuid: 5d6d6768-6b43-4a9b-81b0-9e03815303cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.marvel_characters_creator
+  module:
+    - user
+id: user_remove_role_action.marvel_characters_creator
+label: 'Remove the Marvel Characters creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: marvel_characters_creator

@@ -1,0 +1,14 @@
+uuid: bc9f60ec-291d-4aa5-8cb8-28f56cb8c768
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.page_reviewer
+  module:
+    - user
+id: user_remove_role_action.page_reviewer
+label: 'Remove the Basic page reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: page_reviewer

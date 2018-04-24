@@ -1,0 +1,22 @@
+uuid: 80d4ff65-0cd1-40fc-8283-a14d2af625bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dogs
+id: node.dogs.promote
+field_name: promote
+entity_type: node
+bundle: dogs
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

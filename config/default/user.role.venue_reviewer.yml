@@ -1,0 +1,15 @@
+uuid: f637c5e4-fd5e-4de5-b55b-0dee01f32fea
+langcode: en
+status: true
+dependencies: {  }
+id: venue_reviewer
+label: 'Venue reviewer'
+weight: 16
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any venue content'
+  - 'edit any venue content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'

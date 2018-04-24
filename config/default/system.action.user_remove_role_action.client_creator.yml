@@ -1,0 +1,14 @@
+uuid: 9e8b2079-0efe-4db8-89b0-7f65e1fcfdc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.client_creator
+  module:
+    - user
+id: user_remove_role_action.client_creator
+label: 'Remove the Client creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: client_creator

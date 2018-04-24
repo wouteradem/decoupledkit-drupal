@@ -1,0 +1,23 @@
+uuid: 26fa3f80-ff1e-41de-b92b-1f552a57f37d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hp
+    - node.type.pokemon
+id: node.pokemon.field_hp
+field_name: field_hp
+entity_type: node
+bundle: pokemon
+label: HP
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,9 @@
+uuid: 460eebc0-ebb1-4790-9d8b-ca85570db4cf
+langcode: en
+status: true
+dependencies: {  }
+name: Types
+vid: types_pokemon
+description: 'Types are inherent to Pokemon characters'
+hierarchy: 0
+weight: 0

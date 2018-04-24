@@ -1,0 +1,14 @@
+uuid: c4c3900c-a85a-4d66-bd3c-e17c7face88e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.client_creator
+  module:
+    - user
+id: user_add_role_action.client_creator
+label: 'Add the Client creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: client_creator
