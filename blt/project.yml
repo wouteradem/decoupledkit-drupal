@@ -1,6 +1,6 @@
 project:
   machine_name: decoupledkit
-  prefix: BLT
+  prefix: WCC
   human_name: 'BLTed 8'
   profile:
     name: headless_lightning

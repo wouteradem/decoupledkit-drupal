@@ -1,0 +1,70 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - wcc_migrate
+id: venue_node
+label: WCC venue CSV migration
+migration_tags:
+  - CSV
+
+source:
+  plugin: csv
+  path: 'modules/custom/wcc_migrate/data/approved_venues.csv'
+  delimiter: ';'
+  header_row_count: 1
+  keys:
+    - id
+  column_names:
+    0:
+      id: id
+    1:
+      name: Title
+    2:
+      photo: Photo
+    3:
+      description: Description
+    4:
+      address1: Address1
+    5:
+      address2: Address2
+    6:
+      address3: Address3
+    7:
+      address4: Address4
+    8:
+      postcode: Postal Code
+    9:
+      telephone: Telephone
+    10:
+      email: Email
+    11:
+      website: Website
+    12:
+      latitude: Latitude
+    13:
+      longitude: Longitude
+    14:
+      capacity: Capacity
+    15:
+      area_id: Area ID
+process:
+  type:
+    plugin: default_value
+    default_value: venue
+  title: name
+  body: description
+  field_address1: address1
+  field_address2: address2
+  field_address3: address3
+  field_address4: address4
+  field_capacity: capacity
+  field_email: email
+
+destination:
+  plugin: entity:node
+
+migration_dependencies:
+  required: {}
+  optional: {}

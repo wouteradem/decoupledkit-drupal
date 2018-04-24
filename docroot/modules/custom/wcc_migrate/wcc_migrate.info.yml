@@ -1,0 +1,11 @@
+name: WCC Migrate
+type: module
+core: 8.x
+description: Contains all WCC migrations.
+package: Migration
+dependencies:
+  - drupal:geolocation
+  - drupal:migrate
+  - drupal:migrate_plus
+  - drupal:migrate_source_csv
+  - drupal:migrate_tools
